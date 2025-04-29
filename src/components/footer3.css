@@ -74,6 +74,11 @@
   display: inline-block;
 }
  
+.footer3root-class-name {
+  fill: var(--dl-color-gray-black);
+  color: #ffffff;
+}
+ 
 @media(max-width: 767px) {
   .footer3-content {
     flex-direction: column;
