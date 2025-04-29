@@ -1,0 +1,10 @@
+.main-container {
+  width: 100%;
+  height: var(--dl-layout-size-maxwidth);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #0c0101;
+}
