@@ -447,6 +447,11 @@
   background-color: transparent;
 }
  
+.home-image3 {
+  width: 200px;
+  object-fit: cover;
+}
+ 
 .home-text25 {
   display: inline-block;
 }

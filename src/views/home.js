@@ -127,6 +127,11 @@ const Home = (props) => {
               Portfolio
             </button>
           </div>
+          <img
+            alt="image"
+            src="https://play.teleporthq.io/static/svg/default-img.svg"
+            className="home-image3"
+          />
         </div>
         <Footer3
           link1={
