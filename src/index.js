@@ -11,9 +11,6 @@ import './style.css'
 import Props from './views/props'
 import About from './views/about'
 import Home from './views/home'
-import Portfolio from './views/portfolio'
-import Resume from './views/resume'
-import Sketchbook from './views/sketchbook'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -23,9 +20,6 @@ const App = () => {
         <Route component={Props} exact path="/props" />
         <Route component={About} exact path="/about" />
         <Route component={Home} exact path="/" />
-        <Route component={Portfolio} exact path="/portfolio" />
-        <Route component={Resume} exact path="/resume" />
-        <Route component={Sketchbook} exact path="/sketchbook" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
