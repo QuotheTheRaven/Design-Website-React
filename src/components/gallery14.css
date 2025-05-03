@@ -1,0 +1,401 @@
+.gallery14-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 1400px;
+  align-items: center;
+  flex-shrink: 0;
+  padding-left: var(--dl-layout-space-fourunits);
+  padding-right: var(--dl-layout-space-fourunits);
+  flex-direction: column;
+}
+ 
+.gallery14-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.gallery14-content {
+  gap: var(--dl-layout-space-fiveunits);
+  width: 100%;
+  display: grid;
+  align-self: center;
+  flex-shrink: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+ 
+.gallery14-container10 {
+  gap: var(--dl-layout-space-unit);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
+ 
+.gallery14-container11 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.41);
+}
+ 
+.gallery14-text10 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-text11 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-container12 {
+  gap: var(--dl-layout-space-unit);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
+ 
+.gallery14-container13 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.41);
+}
+ 
+.gallery14-text12 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-text13 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-container14 {
+  gap: var(--dl-layout-space-unit);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
+ 
+.gallery14-container15 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.41);
+}
+ 
+.gallery14-text14 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-text15 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-container16 {
+  gap: var(--dl-layout-space-unit);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
+ 
+.gallery14-container17 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.41);
+}
+ 
+.gallery14-text16 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-text17 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-container18 {
+  gap: var(--dl-layout-space-unit);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
+ 
+.gallery14-container19 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.41);
+}
+ 
+.gallery14-text18 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-text19 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-container20 {
+  gap: var(--dl-layout-space-unit);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
+ 
+.gallery14-container21 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.41);
+}
+ 
+.gallery14-text20 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-text21 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-container22 {
+  gap: var(--dl-layout-space-unit);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
+ 
+.gallery14-container23 {
+  gap: var(--dl-layout-space-halfunit);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.41);
+}
+ 
+.gallery14-text22 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-text23 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.gallery14-text24 {
+  display: inline-block;
+}
+ 
+.gallery14-text25 {
+  display: inline-block;
+}
+ 
+.gallery14-text26 {
+  display: inline-block;
+}
+ 
+.gallery14-text27 {
+  display: inline-block;
+}
+ 
+.gallery14-text28 {
+  display: inline-block;
+}
+ 
+.gallery14-text29 {
+  display: inline-block;
+}
+ 
+.gallery14-text30 {
+  display: inline-block;
+}
+ 
+.gallery14-text31 {
+  display: inline-block;
+}
+ 
+.gallery14-text32 {
+  display: inline-block;
+}
+ 
+.gallery14-text33 {
+  display: inline-block;
+}
+ 
+.gallery14-text34 {
+  display: inline-block;
+}
+ 
+.gallery14-text35 {
+  display: inline-block;
+}
+ 
+.gallery14-text36 {
+  display: inline-block;
+}
+ 
+.gallery14-text37 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .gallery14-content {
+    align-items: center;
+    flex-direction: column;
+  }
+}

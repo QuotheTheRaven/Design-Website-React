@@ -547,10 +547,52 @@
   background-position: top,top left;
 }
  
+.portfolio_selection {
+  width: var(--dl-layout-size-large);
+  height: var(--dl-layout-size-small);
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.portfolio_props {
+  gap: var(--dl-layout-space-unit);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
+ 
 .Menu {
   font-size: 20px;
   font-family: Inter;
   font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.Portfolio_selection1 {
+  font-size: 28px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.Page_Heading {
+  font-size: 60px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 900;
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;

@@ -1,4 +1,4 @@
-.about-container1 {
+.sketchbook-container {
   width: 100%;
   display: flex;
   min-height: 100vh;
@@ -7,15 +7,16 @@
   background-color: #000000;
 }
  
-.about-container2 {
-  width: 1200px;
-  height: var(--dl-layout-size-maxwidth);
+.sketchbook-content {
+  width: 100%;
   display: flex;
+  max-width: 1200px;
   align-items: center;
   flex-direction: column;
+  background-color: #000000;
 }
  
-.about-navbar-interactive {
+.sketchbook-navbar-interactive {
   fill: var(--dl-color-gray-white);
   color: var(--dl-color-gray-white);
   width: 90%;
@@ -29,23 +30,23 @@
   background-color: #000000;
 }
  
-.about-navlink1 {
+.sketchbook-navlink1 {
   display: contents;
 }
  
-.about-image1 {
+.sketchbook-image {
   width: 105px;
   height: 85px;
   object-fit: cover;
   text-decoration: none;
 }
  
-.about-desktop-menu {
+.sketchbook-desktop-menu {
   flex: 1;
   display: flex;
 }
  
-.about-links1 {
+.sketchbook-links1 {
   gap: var(--dl-layout-space-twounits);
   flex: 1;
   display: flex;
@@ -54,43 +55,43 @@
   justify-content: center;
 }
  
-.about-navlink2 {
+.sketchbook-navlink2 {
   font-size: 20px;
   text-decoration: none;
 }
  
-.about-navlink3 {
-  font-size: 20px;
-  margin-left: var(--dl-layout-space-twounits);
-  text-decoration: none;
-}
- 
-.about-navlink4 {
+.sketchbook-navlink3 {
   font-size: 20px;
   margin-left: var(--dl-layout-space-twounits);
   text-decoration: none;
 }
  
-.about-navlink5 {
+.sketchbook-navlink4 {
+  font-size: 20px;
   margin-left: var(--dl-layout-space-twounits);
   text-decoration: none;
 }
  
-.about-text10 {
+.sketchbook-navlink5 {
+  margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
+}
+ 
+.sketchbook-text10 {
   font-size: 20px;
   margin-left: var(--dl-layout-space-twounits);
 }
  
-.about-burger-menu {
+.sketchbook-burger-menu {
   display: none;
 }
  
-.about-icon10 {
+.sketchbook-icon10 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
 }
  
-.about-mobile-menu {
+.sketchbook-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -104,13 +105,13 @@
   background-color: #fff;
 }
  
-.about-nav {
+.sketchbook-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
  
-.about-top {
+.sketchbook-top {
   width: 100%;
   display: flex;
   align-items: center;
@@ -118,22 +119,22 @@
   justify-content: space-between;
 }
  
-.about-logo {
+.sketchbook-logo {
   height: 2rem;
 }
  
-.about-close-menu {
+.sketchbook-close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
  
-.about-icon12 {
+.sketchbook-icon12 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
 }
  
-.about-links2 {
+.sketchbook-links2 {
   flex: 0 0 auto;
   display: flex;
   align-self: flex-start;
@@ -141,27 +142,27 @@
   flex-direction: column;
 }
  
-.about-text11 {
+.sketchbook-text11 {
   margin-bottom: var(--dl-layout-space-unit);
 }
  
-.about-text12 {
+.sketchbook-text12 {
   margin-bottom: var(--dl-layout-space-unit);
 }
  
-.about-text13 {
+.sketchbook-text13 {
   margin-bottom: var(--dl-layout-space-unit);
 }
  
-.about-text14 {
+.sketchbook-text14 {
   margin-bottom: var(--dl-layout-space-unit);
 }
  
-.about-text15 {
+.sketchbook-text15 {
   margin-bottom: var(--dl-layout-space-unit);
 }
  
-.about-buttons {
+.sketchbook-buttons {
   width: 100%;
   display: flex;
   margin-top: var(--dl-layout-space-unit);
@@ -170,28 +171,28 @@
   justify-content: space-between;
 }
  
-.about-login {
+.sketchbook-login {
   margin-right: var(--dl-layout-space-twounits);
 }
  
-.about-icon14 {
+.sketchbook-icon14 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
   margin-right: var(--dl-layout-space-twounits);
 }
  
-.about-icon16 {
+.sketchbook-icon16 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
   margin-right: var(--dl-layout-space-twounits);
 }
  
-.about-icon18 {
+.sketchbook-icon18 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
 }
  
-.about-show {
+.sketchbook-show {
   gap: var(--dl-layout-space-unit);
   width: 100%;
   height: var(--dl-layout-size-xxlarge);
@@ -205,134 +206,110 @@
   background-position: center;
 }
  
-.about-show-title {
+.sketchbook-show-title {
   color: rgb(255, 255, 255);
 }
  
-.about-bio1 {
-  gap: var(--dl-layout-space-twounits);
-  width: 100%;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  flex-direction: row;
-}
- 
-.about-image2 {
-  width: 250px;
-  object-fit: cover;
-}
- 
-.about-text16 {
-  gap: var(--dl-layout-space-twounits);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
- 
-.about-text17 {
-  color: #ffffff;
-}
- 
-.about-bio2 {
-  color: rgb(255, 255, 255);
-  width: auto;
-  line-height: 2;
-}
- 
-.about-text18 {
+.sketchbook-text16 {
   display: inline-block;
 }
  
-.about-text19 {
+.sketchbook-text17 {
   display: inline-block;
 }
  
-.about-text20 {
+.sketchbook-text18 {
   display: inline-block;
 }
  
-.about-text21 {
+.sketchbook-text19 {
   display: inline-block;
 }
  
-.about-text22 {
+.sketchbook-text20 {
   display: inline-block;
 }
  
-.about-text23 {
+.sketchbook-text21 {
   display: inline-block;
 }
  
-.about-text24 {
+.sketchbook-text22 {
   display: inline-block;
 }
  
-.about-text25 {
+.sketchbook-text23 {
   display: inline-block;
 }
  
-.about-text26 {
+.sketchbook-text24 {
   display: inline-block;
 }
  
-.about-text27 {
+.sketchbook-text25 {
   display: inline-block;
 }
  
-.about-text28 {
+.sketchbook-text26 {
   display: inline-block;
 }
  
-.about-text29 {
+.sketchbook-text27 {
   display: inline-block;
+}
+ 
+.sketchbook-text28 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .sketchbook-content {
+    overflow: hidden;
+  }
 }
  
 @media(max-width: 767px) {
-  .about-navbar-interactive {
+  .sketchbook-navbar-interactive {
     padding-left: var(--dl-layout-space-twounits);
     padding-right: var(--dl-layout-space-twounits);
   }
-  .about-desktop-menu {
+  .sketchbook-desktop-menu {
     display: none;
   }
-  .about-burger-menu {
+  .sketchbook-burger-menu {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .about-text11 {
+  .sketchbook-text11 {
     margin-bottom: var(--dl-layout-space-unit);
   }
-  .about-text12 {
+  .sketchbook-text12 {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
-  .about-text13 {
+  .sketchbook-text13 {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
-  .about-text14 {
+  .sketchbook-text14 {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
-  .about-text15 {
+  .sketchbook-text15 {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
 }
  
 @media(max-width: 479px) {
-  .about-navbar-interactive {
+  .sketchbook-navbar-interactive {
     padding: var(--dl-layout-space-unit);
   }
-  .about-mobile-menu {
+  .sketchbook-mobile-menu {
     padding: 16px;
   }
-  .about-show {
+  .sketchbook-show {
     height: var(--dl-layout-size-xxlarge);
     background-size: cover;
     background-image: url("/Img/secret_prop_image-1200w.jpg");
