@@ -8,13 +8,13 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
-import Props from './views/props'
-import About from './views/about'
-import Home from './views/home'
-import Portfolio from './views/portfolio'
-import Resume from './views/resume'
-import Sketchbook from './views/sketchbook'
-import NotFound from './views/not-found'
+import Props from './pages/props'
+import About from './pages/about'
+import Home from './pages/home'
+import Portfolio from './pages/portfolio'
+import Resume from './pages/resume'
+import Sketchbook from './pages/sketchbook'
+import NotFound from './pages/not-found'
 
 const App = () => {
   return (
